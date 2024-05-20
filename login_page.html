@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <center>
+    <div class="container">
+        <div class="toggle-buttons">
+            <button onclick="showLoginForm()">Login</button>
+            <button onclick="showSignupForm()">Sign Up</button>
+        </div>
+        
+        <form id="login-form" class="active">
+            <h2>Login</h2>
+            <div id="login-fields">
+                <label for="login-email">Email</label>
+                <input type="email" name="email" id="login-email" required><br><br>
+                <label for="login-password">Password</label>
+                <input type="password" name="password" id="login-password" required><br><br>
+            </div>
+            <input type="submit" value="Login">
+        </form>
+        
+        <form id="signup-form">
+            <h2>Sign Up</h2>
+            <div id="signup-fields">
+                <label for="signup-email">Email</label>
+                <input type="email" name="email" id="signup-email" required><br><br>
+                <label for="signup-password">Password</label>
+                <input type="password" name="password" id="signup-password" required><br><br>
+                <label for="signup-confirm-password">Confirm Password</label>
+                <input type="password" name="confirm-password" id="signup-confirm-password" required><br><br>
+            </div>
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+</center>
+    <script src="script.js"></script>
+</body>
+</html>
