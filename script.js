@@ -11,7 +11,7 @@ function showSignupForm() {
 }
 
 function logout() {
-    window.location.href = "login_page.html";
+    window.location.href = "index.html";
 }
 
 // Check if the user has visited the page before
